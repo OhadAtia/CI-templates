@@ -1,10 +1,6 @@
 <html>
-{% for entry in data_source %}
-	{% if entry=='jobs' %}
-		{% for project in entry %}
-		    <div>{{ project.name }}</div>
-		    <div>{{ project.color }}</div>
-		{% endfor %}
-	{% endif %}
+{% for proj in jobs %}
+	<div>{{proj.name}}</div>
+	<div>{{proj.color}}</div>
 {% endfor %}
 </html>
