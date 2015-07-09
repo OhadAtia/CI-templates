@@ -6,18 +6,15 @@
 	Project name: {{proj.name}}<br>
 	Project status: 
 	{% if proj.color == "blue" %}
-	<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/blue.png"/>
+		<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/blue.png"/>
 	{% if proj.color == "red" %}
-	<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/red.png"/>
+		<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/red.png"/>
 	{% if proj.color == "yellow" %}
-	<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/yellow.png"/>	
+		<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/yellow.png"/>	
 	{% else %} 
-	<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/disabled.png"/>
-
+		<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/disabled.png"/>
 	{% endif %}
-
 	</li>
-	<div> </div>
 {% endfor %}
 	</div>
 </div>
