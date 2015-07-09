@@ -13,7 +13,8 @@
 		{% endif %}
 		{% if proj.color == "yellow" %}
 			<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/yellow.png"/>	
-		{% else %} 
+		{% endif %}
+		{% if proj.color == "disabled" %} 
 			<img src="https://raw.githubusercontent.com/tzurE/CI-templates/master/pngs/disabled.png"/>
 		{% endif %}
 	</li>
